@@ -34,10 +34,8 @@ public class AuthController {
 
     @Autowired
     private JwtUtils jwtUtils;
-
     @Autowired
     private AuthenticationManager authenticationManager;
-
     @Autowired
     UserRepository userRepository;
     @Autowired
