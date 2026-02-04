@@ -6,7 +6,7 @@ public class ResourceNotFoundException extends RuntimeException {
     String fieldName;
     Long fieldId;
 
-    public ResourceNotFoundException(){
+    public ResourceNotFoundException(String cart, String email, String emailId){
 
     }
 
